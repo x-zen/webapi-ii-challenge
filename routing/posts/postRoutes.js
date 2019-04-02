@@ -1,7 +1,7 @@
 /* --- Routes for '/api/posts' --- */
 const express = require('express'); // import the express package
 
-const db = require('../data/db.js'); // import data helpers
+const db = require('../../data/db.js'); // import data helpers
 
 const router = express.Router(); // creates the route
 
